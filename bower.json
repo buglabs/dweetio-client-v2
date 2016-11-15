@@ -1,6 +1,6 @@
 {
     "name": "dweet.io",
-    "version": "0.0.11",
+    "version": "1.0.0",
     "main": "dweet.io.js",
     "ignore": [
         ".jshintrc",

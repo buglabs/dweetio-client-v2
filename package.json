@@ -1,7 +1,7 @@
 {
-	"name": "dweet.io.js",
-	"description": "JavaScript client library for dweet.io V2 (in public beta).",
-	"homepage": "https://beta.dweet.io",
+	"name": "dweetpro.io.js",
+	"description": "JavaScript client library for dweetpro.io (dweet V2).",
+	"homepage": "https://dweetpro.io",
 	"version": "1.0.0",
 	"repository": {
 		"type": "git",
@@ -11,10 +11,10 @@
 		"uglify-js": "2.4.x"
 	},
 	"scripts": {
-		"build": "uglifyjs dweet.io.js -c -m --source-map dweet.io.min.map -o dweet.io.min.js -r \"io\""
+		"build": "uglifyjs dweetpro.io.js -c -m --source-map dweetpro.io.min.map -o dweetpro.io.min.js -r \"io\""
 	},
 	"files": [
-		"dweet.io.js",
-		"dweet.io.min.js"
+		"dweetpro.io.js",
+		"dweetpro.io.min.js"
 	]
 }

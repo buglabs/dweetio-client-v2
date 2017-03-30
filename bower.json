@@ -1,7 +1,7 @@
 {
-    "name": "dweet.io",
+    "name": "dweetpro.io",
     "version": "1.0.0",
-    "main": "dweet.io.js",
+    "main": "dweetpro.io.js",
     "ignore": [
         ".jshintrc",
         "**/*.txt",

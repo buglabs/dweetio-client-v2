@@ -1,7 +1,7 @@
-//     dweet.io.js
-//     http://dweet.io
-//     (c) 2014 Jim Heising and Bug Labs, Inc.
-//     dweet.io.js may be freely distributed under the MIT license.
+//     dweetpro.io.js
+//     https://dweetpro.io
+//     (c) 2017 Bug Labs, Inc.
+//     dweetpro.io.js may be freely distributed under the MIT license.
 (function () {
 
 	var isNode = true;
@@ -18,7 +18,7 @@
 	var request;
 
 	var LAST_THING_NAME = "last-thing.dat";
-	var DWEET_SERVER = "https://beta.dweet.io:443";
+	var DWEET_SERVER = "https://dweetpro.io:443";
 	var STRICT_SSL = true;
 	var REQUEST_TIMEOUT = 5000;
 	var lastThing;

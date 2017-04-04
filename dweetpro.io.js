@@ -196,6 +196,10 @@
 				processDweetResponse(err, callback, body);
 			});
 		};
+		
+		self.set_token = function (token) {
+			self.token = token;	
+		}
 
 		function ensureLogin(callback) {
 			self.token ? callback() : self.login(username, password, callback);
